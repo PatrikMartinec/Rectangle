@@ -40,7 +40,7 @@ class Rect:
     def __and__(self, other):
         rect1, rect2 = self, other
 
-        # points of the intersection triangle
+        # points of the intersection rectangle
         x1 = max(rect1.x1, rect2.x1)
         y1 = max(rect1.y1, rect2.y1)
 
